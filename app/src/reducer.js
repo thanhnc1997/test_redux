@@ -36,29 +36,7 @@ function storeReducer(state = initialState, { type, payload }) {
       return array;
     }
     case LOAD_INITIAL_STATE: {
-      state = [
-        {
-          id: 1,
-          name: 'canceled',
-          check: false
-        },
-        {
-          id: 2,
-          name: 'draft',
-          check: true
-        },
-        {
-          id: 3,
-          name: 'with pickup',
-          check: true
-        },
-        {
-          id: 4,
-          name: 'printed',
-          check: true
-        }
-      ];
-      return state;
+      return initialState
     }
     default:
       return state;
