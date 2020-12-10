@@ -1,0 +1,2 @@
+export const TOGGLE_OPTION = "TOGGLE_OPTION";
+export const LOAD_INITIAL_STATE = "LOAD_INITIAL_STATE";
